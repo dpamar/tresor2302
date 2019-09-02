@@ -19,6 +19,13 @@
 * Rename all pictures 0.png, 1.png, ...
 * Commit and push all changes
 
+### Test
+An easy way to test :
+* Record all your places
+* Use the "copy to clipboard" feature and Github web UI to update places.js from your mobile device
+* Open https://[yourAccount].github.io/[forked repository name]/index.html?reverse=1
+* Walk the complete reversed path "end from start" to test all the GPS recorded locations
+
 ### Play
 * Open https://[yourAccount].github.io/[forked repository name]/
 * Play
