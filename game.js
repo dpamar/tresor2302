@@ -6,13 +6,13 @@ var nbPlaces = places.length;
 
 function getId()
 {
-  var h = window.location.href.split('?');
+  var h = window.location.href.indexOf('?');
   reverse = getParam('reverse')||0;
   debug = getParam('debug')||0;
   var result = getParam('place');
   if(!result)
   {
-    window.location.href += (h==-1 ? '?' : '&') + 'place=' + (reverse ? nbPlaces - 1 : 0);
+    window.location.href += (h.length == -1 ? '?' : '&') + 'place=' + (reverse ? nbPlaces - 1 : 0);
   }
   return result;
 }
