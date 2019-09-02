@@ -12,7 +12,7 @@ function getId()
   var result = getParam('place');
   if(!result)
   {
-    window.location.href += (h.length == -1 ? '?' : '&') + 'place=' + (reverse ? nbPlaces - 1 : 0);
+    window.location.href += (h == -1 ? '?' : '&') + 'place=' + (reverse ? nbPlaces - 1 : 0);
   }
   return result;
 }
